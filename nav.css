@@ -130,7 +130,6 @@ img { vertical-align: middle;}
 
 
 
-
    #apple{
         position: relative;
         height:40%;
@@ -144,7 +143,7 @@ img { vertical-align: middle;}
         width:80%;
         left: 10%;
    }
-   #fake {
+   #fake,#comment {
         position: relative;
         height:70%;
         width:70%;
@@ -195,7 +194,7 @@ width: 30px;
 
 
 
-  #tongue,#tencent,#fake,#exhibition,#apple {
+  #comment,#tongue,#tencent,#fake,#exhibition,#apple {
         position: relative;
         height:100%;
         width:100%;
