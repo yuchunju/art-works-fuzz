@@ -131,9 +131,14 @@ img { vertical-align: middle;}
 
 
 
+   #apple{
+        position: relative;
+        height:40%;
+        width:40%;
+        left: 30%;
+   }
 
-
-   #tencent,#apple{
+   #tencent, #tongue{
         position: relative;
         height:80%;
         width:80%;
@@ -190,7 +195,7 @@ width: 30px;
 
 
 
-   #tencent,#fake,#exhibition,#apple {
+  #tongue,#tencent,#fake,#exhibition,#apple {
         position: relative;
         height:100%;
         width:100%;
