@@ -209,10 +209,41 @@ width: 30px;
     font-size: 13px;
 }
 
+
 }
 
 
+/* =========================
+   SLIDESHOW IMAGE UNIFY FIX
+   ========================= */
 
+.slideshow-container {
+  text-align: center;
+}
+
+/* 统一所有 slide 图片行为（关键） */
+.slideshow-container img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 80vh;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain;
+}
+
+/* 覆盖你原来那些“手动偏移”规则 */
+#apple,
+#tencent,
+#tongue,
+#fake,
+#comment,
+#exhibition {
+  position: relative;
+  left: 0 !important;
+  width: auto !important;
+  height: auto !important;
+}
 
 
 
